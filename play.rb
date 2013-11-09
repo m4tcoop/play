@@ -1,12 +1,12 @@
-# Recipe for play-2.1-RC4
+# Recipe for play-2.1.5
  
 require 'formula'
  
 class Play < Formula
   homepage 'http://www.playframework.org/'
-  url 'http://download.playframework.org/releases/play-2.1-RC4.zip'
+  url 'http://downloads.typesafe.com/play/2.1.5/play-2.1.5.zip'
   sha1 '2fbf24bd14e4b74de7353e08fbed496baf394b04'
-  version '2.1-RC4'
+  version '2.1.5'
  
   def install
     rm Dir['*.bat'] # remove windows' bat files
