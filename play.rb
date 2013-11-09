@@ -5,7 +5,7 @@ require 'formula'
 class Play < Formula
   homepage 'http://www.playframework.org/'
   url 'http://downloads.typesafe.com/play/2.1.5/play-2.1.5.zip'
-  sha1 '2fbf24bd14e4b74de7353e08fbed496baf394b04'
+  sha1 '0c92e9c0c0e7ddfba0ef8a2f730c5cbcd6ebc377'
   version '2.1.5'
  
   def install
